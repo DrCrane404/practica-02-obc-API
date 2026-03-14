@@ -13,7 +13,7 @@ export class ClientesService {
             nombre:nuevoCliente.nombre,
             correo:nuevoCliente.correo,
             telefono:nuevoCliente.telefono,
-            fecha:nuevoCliente.correo
+            fecha:nuevoCliente.fecha
         }
         this.clientes.push(cliente);
         this.idContador +=1;
